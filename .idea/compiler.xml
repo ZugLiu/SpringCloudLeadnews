@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="absolute-leadnews-model" />
+        <module name="absolute-leadnews-feign-api" />
+        <module name="absolute-leadnews-common" />
+        <module name="absolute-leadnews-utils" />
+        <module name="absolute-leadnews-user" />
+        <module name="absolute-leadnews-app-gateway" />
+        <module name="absolute-leadnews-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="absolute-leadnews" target="1.8" />
+      <module name="absolute-leadnews-app-gateway" target="1.8" />
+      <module name="absolute-leadnews-common" target="1.8" />
+      <module name="absolute-leadnews-feign-api" target="1.8" />
+      <module name="absolute-leadnews-gateway" target="1.8" />
+      <module name="absolute-leadnews-model" target="1.8" />
+      <module name="absolute-leadnews-service" target="1.8" />
+      <module name="absolute-leadnews-test" target="1.8" />
+      <module name="absolute-leadnews-user" target="1.8" />
+      <module name="absolute-leadnews-utils" target="1.8" />
+      <module name="heima-leadnews-apis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="absolute-leadnews" options="" />
+      <module name="absolute-leadnews-app-gateway" options="-parameters" />
+      <module name="absolute-leadnews-common" options="-parameters" />
+      <module name="absolute-leadnews-feign-api" options="-parameters" />
+      <module name="absolute-leadnews-gateway" options="" />
+      <module name="absolute-leadnews-model" options="-parameters" />
+      <module name="absolute-leadnews-service" options="" />
+      <module name="absolute-leadnews-test" options="-parameters" />
+      <module name="absolute-leadnews-user" options="-parameters" />
+      <module name="absolute-leadnews-utils" options="-parameters" />
+      <module name="heima-leadnews-apis" options="-parameters" />
+    </option>
+  </component>
+</project>

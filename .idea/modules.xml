@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/absolute-leadnews.iml" filepath="$PROJECT_DIR$/absolute-leadnews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/absolute-leadnews-app-gateway.iml" filepath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/absolute-leadnews-app-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-common/absolute-leadnews-common.iml" filepath="$PROJECT_DIR$/heima-leadnews-common/absolute-leadnews-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-feign-api/absolute-leadnews-feign-api.iml" filepath="$PROJECT_DIR$/heima-leadnews-feign-api/absolute-leadnews-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-gateway.iml" filepath="$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-model/absolute-leadnews-model.iml" filepath="$PROJECT_DIR$/heima-leadnews-model/absolute-leadnews-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-service.iml" filepath="$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-test/absolute-leadnews-test.iml" filepath="$PROJECT_DIR$/heima-leadnews-test/absolute-leadnews-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/absolute-leadnews-user.iml" filepath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/absolute-leadnews-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-utils/absolute-leadnews-utils.iml" filepath="$PROJECT_DIR$/heima-leadnews-utils/absolute-leadnews-utils.iml" />
+    </modules>
+  </component>
+</project>
