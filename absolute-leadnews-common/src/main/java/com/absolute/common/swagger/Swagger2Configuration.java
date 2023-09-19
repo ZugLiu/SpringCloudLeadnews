@@ -34,8 +34,8 @@ public class Swagger2Configuration {
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("黑马头条API文档")
-                .description("黑马头条API文档")
+                .title("Absolute Leadnews API文档")
+                .description("Absolute Leadnews API文档")
                 .version("1.0")
                 .build();
     }
