@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/absolute-leadnews-common/pom.xml" />
+        <option value="$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-article/pom.xml" />
       </list>
     </option>
   </component>

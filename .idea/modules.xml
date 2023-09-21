@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews.iml" filepath="$PROJECT_DIR$/absolute-leadnews.iml" />
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-app-gateway/absolute-leadnews-app-gateway.iml" filepath="$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-app-gateway/absolute-leadnews-app-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-article/absolute-leadnews-article.iml" filepath="$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-article/absolute-leadnews-article.iml" />
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-common/absolute-leadnews-common.iml" filepath="$PROJECT_DIR$/absolute-leadnews-common/absolute-leadnews-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-feign-api/absolute-leadnews-feign-api.iml" filepath="$PROJECT_DIR$/absolute-leadnews-feign-api/absolute-leadnews-feign-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-gateway.iml" filepath="$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-gateway.iml" />

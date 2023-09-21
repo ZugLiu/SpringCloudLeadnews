@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>absolute-leadnews-user</module>
+        <module>absolute-leadnews-article</module>
     </modules>
 
     <properties>

@@ -7,9 +7,9 @@ import java.util.Date;
 @Data
 public class ArticleHomeDto {
     // 最大时间
-    Date maxBeHotTime;
+    Date maxBehotTime;
     // 最小时间
-    Date minBeHotTime;
+    Date minBehotTime;
     // 分页size
     Integer size;
     // 频道ID
