@@ -16,6 +16,7 @@
         <module>absolute-leadnews-service</module>
         <module>absolute-leadnews-gateway</module>
         <module>absolute-leadnews-test</module>
+        <module>absolute-leadnews-basic</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
