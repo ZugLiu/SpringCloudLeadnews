@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="absolute-leadnews-model" />
+        <module name="absolute-leadnews-wemedia-gateway" />
+        <module name="absolute-leadnews-wemedia" />
         <module name="absolute-leadnews-feign-api" />
         <module name="absolute-leadnews-article" />
         <module name="absolute-file-starter" />
@@ -33,6 +35,8 @@
       <module name="absolute-leadnews-test" target="1.8" />
       <module name="absolute-leadnews-user" target="1.8" />
       <module name="absolute-leadnews-utils" target="1.8" />
+      <module name="absolute-leadnews-wemedia" target="1.8" />
+      <module name="absolute-leadnews-wemedia-gateway" target="1.8" />
       <module name="heima-file-starter" target="1.8" />
       <module name="heima-leadnews-basic" target="1.8" />
     </bytecodeTargetLevel>
@@ -53,6 +57,8 @@
       <module name="absolute-leadnews-test" options="-parameters" />
       <module name="absolute-leadnews-user" options="-parameters" />
       <module name="absolute-leadnews-utils" options="-parameters" />
+      <module name="absolute-leadnews-wemedia" options="-parameters" />
+      <module name="absolute-leadnews-wemedia-gateway" options="-parameters" />
       <module name="heima-leadnews-basic" options="-parameters" />
     </option>
   </component>

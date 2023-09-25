@@ -15,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-test/absolute-leadnews-test.iml" filepath="$PROJECT_DIR$/absolute-leadnews-test/absolute-leadnews-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-user/absolute-leadnews-user.iml" filepath="$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-user/absolute-leadnews-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-utils/absolute-leadnews-utils.iml" filepath="$PROJECT_DIR$/absolute-leadnews-utils/absolute-leadnews-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-wemedia/absolute-leadnews-wemedia.iml" filepath="$PROJECT_DIR$/absolute-leadnews-service/absolute-leadnews-wemedia/absolute-leadnews-wemedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-wemedia-gateway/absolute-leadnews-wemedia-gateway.iml" filepath="$PROJECT_DIR$/absolute-leadnews-gateway/absolute-leadnews-wemedia-gateway/absolute-leadnews-wemedia-gateway.iml" />
     </modules>
   </component>
 </project>

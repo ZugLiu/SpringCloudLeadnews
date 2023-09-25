@@ -14,6 +14,7 @@
     <modules>
         <module>absolute-leadnews-user</module>
         <module>absolute-leadnews-article</module>
+        <module>absolute-leadnews-wemedia</module>
     </modules>
 
     <properties>
