@@ -1,6 +1,7 @@
 package com.absolute.wemedia.controller.v1;
 
 import com.absolute.model.common.dtos.ResponseResult;
+import com.absolute.model.wemedia.dtos.WmNewsDto;
 import com.absolute.model.wemedia.dtos.WmNewsPageReqDto;
 import com.absolute.wemedia.service.WmNewsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,5 +19,10 @@ public class WmNewsController {
     @PostMapping("/list")
     public ResponseResult findAll(@RequestBody WmNewsPageReqDto dto) {
         return wmNewsService.findAll(dto);
+    }
+
+    @PostMapping("/submit")
+    public ResponseResult submitNews(@RequestBody WmNewsDto dto) {
+        return wmNewsService.submitNews(dto);
     }
 }
