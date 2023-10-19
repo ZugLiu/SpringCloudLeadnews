@@ -2,6 +2,11 @@
   "groups": [
     {
       "name": "aliyun",
+      "type": "com.absolute.common.aliyun.GreenTextScan2023",
+      "sourceType": "com.absolute.common.aliyun.GreenTextScan2023"
+    },
+    {
+      "name": "aliyun",
       "type": "com.absolute.common.aliyun.GreenImageScan",
       "sourceType": "com.absolute.common.aliyun.GreenImageScan"
     },
@@ -12,6 +17,11 @@
     }
   ],
   "properties": [
+    {
+      "name": "aliyun.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.absolute.common.aliyun.GreenTextScan2023"
+    },
     {
       "name": "aliyun.access-key-id",
       "type": "java.lang.String",
@@ -26,6 +36,11 @@
       "name": "aliyun.scenes",
       "type": "java.lang.String",
       "sourceType": "com.absolute.common.aliyun.GreenImageScan"
+    },
+    {
+      "name": "aliyun.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.absolute.common.aliyun.GreenTextScan2023"
     },
     {
       "name": "aliyun.secret",

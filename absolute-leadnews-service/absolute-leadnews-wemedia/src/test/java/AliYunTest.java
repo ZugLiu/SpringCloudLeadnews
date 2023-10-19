@@ -1,5 +1,6 @@
 import com.absolute.common.aliyun.GreenImageScan;
 import com.absolute.common.aliyun.GreenTextScan;
+import com.absolute.common.aliyun.GreenTextScan2023;
 import com.absolute.file.service.FileStorageService;
 import com.absolute.wemedia.WemediaApplication;
 import org.junit.Test;
@@ -13,17 +14,18 @@ import java.util.Map;
 @SpringBootTest(classes = WemediaApplication.class)
 @RunWith(SpringRunner.class)
 public class AliYunTest {
+//    @Autowired
+//    private GreenTextScan greenTextScan;
+//    @Autowired
+//    private GreenImageScan greenImageScan;
+//    @Autowired
+//    private FileStorageService fileStorageService;
     @Autowired
-    private GreenTextScan greenTextScan;
-    @Autowired
-    private GreenImageScan greenImageScan;
-    @Autowired
-    private FileStorageService fileStorageService;
+    private GreenTextScan2023 greenTextScan2023;
 
     @Test
     public void testScanText() throws Exception {
-        Map map = greenTextScan.greeTextScan("我是好人。冰毒");
-        System.out.println(map);
+        greenTextScan2023.textScan("死亡");
     }
 
     @Test

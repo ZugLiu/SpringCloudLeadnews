@@ -3,4 +3,5 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
   com.absolute.common.swagger.SwaggerConfiguration,\
   com.absolute.common.swagger.Swagger2Configuration,\
   com.absolute.common.aliyun.GreenImageScan,\
-  com.absolute.common.aliyun.GreenTextScan
+  com.absolute.common.aliyun.GreenTextScan,\
+  com.absolute.common.aliyun.GreenTextScan2023
