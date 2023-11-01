@@ -1,5 +1,6 @@
 package com.absolute.article.service;
 
+import com.absolute.model.article.dtos.ArticleDto;
 import com.absolute.model.article.dtos.ArticleHomeDto;
 import com.absolute.model.article.pojos.ApArticle;
 import com.absolute.model.common.dtos.ResponseResult;
@@ -13,4 +14,5 @@ public interface ApArticleService extends IService<ApArticle> {
      * @return
      */
     ResponseResult load(Short loadType, ArticleHomeDto dto);
+    ResponseResult saveArticle(ArticleDto dto);
 }
