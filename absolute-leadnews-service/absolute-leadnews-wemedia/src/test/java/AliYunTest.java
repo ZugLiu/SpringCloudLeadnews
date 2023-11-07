@@ -25,7 +25,7 @@ public class AliYunTest {
 
     @Test
     public void testScanText() throws Exception {
-        greenTextScan2023.textScan("死亡");
+        greenTextScan2023.textScan("耶稣基督");
     }
 
     @Test

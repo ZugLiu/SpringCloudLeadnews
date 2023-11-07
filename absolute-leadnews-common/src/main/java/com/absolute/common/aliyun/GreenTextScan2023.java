@@ -10,14 +10,17 @@ import com.aliyun.teaopenapi.models.Config;
 import com.aliyun.teautil.models.RuntimeOptions;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @Getter
 @Setter
 @Component
+@Slf4j
 @ConfigurationProperties(prefix = "aliyun")
 public class GreenTextScan2023 {
     private String accessKeyId;
@@ -40,20 +43,22 @@ public class GreenTextScan2023 {
         runtime.readTimeout = 10000;
         runtime.connectTimeout = 10000;
 
+        // 返回值
+        HashMap<String, Object> resMap = new HashMap<>();
+
         //检测参数构造
         JSONObject serviceParameters = new JSONObject();
         serviceParameters.put("content", content);
 
         if (serviceParameters.get("content") == null || serviceParameters.getString("content").trim().length() == 0) {
-            System.out.println("text moderation content is empty");
-            return null;
+            throw new RuntimeException("text moderation content is empty");
         }
 
         TextModerationRequest textModerationRequest = new TextModerationRequest();
         /*
         文本检测服务 service code
         */
-        textModerationRequest.setService("nickname_detection");
+        textModerationRequest.setService("comment_detection");
         textModerationRequest.setServiceParameters(serviceParameters.toJSONString());
         try {
             // 调用方法获取检测结果。
@@ -75,17 +80,20 @@ public class GreenTextScan2023 {
             if (response != null) {
                 if (response.getStatusCode() == 200) {
                     TextModerationResponseBody result = response.getBody();
-                    System.out.println(JSON.toJSONString(result));
+                    log.info(JSON.toJSONString(result));
                     Integer code = result.getCode();
                     if (code != null && code == 200) {
                         TextModerationResponseBody.TextModerationResponseBodyData data = result.getData();
-                        System.out.println("labels = [" + data.getLabels() + "]");
-                        System.out.println("reason = [" + data.getReason() + "]");
+                        resMap.put("labels", data.getLabels());
+                        resMap.put("reason", data.getReason());
+                        log.info("labels = [" + data.getLabels() + "]");
+                        log.info("reason = [" + data.getReason() + "]");
+                        return resMap;
                     } else {
-                        System.out.println("text moderation not success. code:" + code);
+                        throw new RuntimeException("text moderation not success. code:" + code);
                     }
                 } else {
-                    System.out.println("response not success. status:" + response.getStatusCode());
+                    throw new RuntimeException("response not success. status:" + response.getStatusCode());
                 }
             }
         } catch (Exception e) {
